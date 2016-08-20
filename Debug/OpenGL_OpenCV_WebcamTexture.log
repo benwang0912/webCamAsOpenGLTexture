@@ -1,0 +1,11 @@
+﻿  Source.cpp
+d:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+d:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+d:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+d:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+LINK : warning LNK4098: 預設的程式庫 'MSVCRT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+Source.obj : error LNK2019: 無法解析的外部符號 "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z) 在函式 "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z) 中被參考
+Source.obj : error LNK2019: 無法解析的外部符號 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) 在函式 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 中被參考
+Source.obj : error LNK2019: 無法解析的外部符號 "void __cdecl cv::namedWindow(class cv::String const &,int)" (?namedWindow@cv@@YAXABVString@1@H@Z) 在函式 _main 中被參考
+D:\opencv\build\x64\vc14\lib\opencv_world310d.lib : warning LNK4272: 程式庫電腦類型 'x64' 與目標電腦類型 'X86' 發生衝突
+D:\opencv\Practice\OpenGL_OpenCV_WebcamTexture\Debug\OpenGL_OpenCV_WebcamTexture.exe : fatal error LNK1120: 3 個無法解析的外部符號
